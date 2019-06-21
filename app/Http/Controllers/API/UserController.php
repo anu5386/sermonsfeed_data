@@ -112,8 +112,8 @@ public function sermonsData() {
        echo "<td>$title</td>";
        //echo "<td>$description</td>";
        echo "<td><a href='$video'>$video</a></td>";
-       //echo "<td><a href='$youtubeID'>$youtubeID</a></td>";
-        //preg_match('%(?:youtube(?:-nocookie)?\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/ ]{11})%i', $video, $match); ?>
+       echo "<td><a href='$youtubeID'>$youtubeID</a></td>";
+
        //echo "<td><iframe src="$youtubeID">$youtubeID</iframe></td>";
        echo "<td><a href='$posterImage'>$posterImage</a></td>";
        echo "<td><a href='$link'>$link</a></td>";
